@@ -2,7 +2,6 @@ require("@nomicfoundation/hardhat-toolbox"); // Hardhat + ethers v6 + chai tests
 require("dotenv").config();                  // loads secrets from .env
 
 const { SEPOLIA_RPC_URL, PRIVATE_KEY, ETHERSCAN_API_KEY } = process.env;
-
 module.exports = {
   solidity: {
     version: "0.8.24",
